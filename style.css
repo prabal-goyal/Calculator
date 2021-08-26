@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,600&display=swap');
+
+* {
+    font-family: Open Sans;
+    scroll-behavior: smooth;
+}
+
+.navigation {
+    background-color: #EBECF0; 
+    margin: 10px;
+    height: 40px;
+}
+
+.LINKS{
+    list-style: none;
+}
+
+.LINKS li {
+    text-decoration: none;
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+
+}
+
+.main {
+    background-color: #EBECF0;
+    height: 1000px;
+}
+
+.Skills {
+    background-color: #EBECF0;
+    height: 1000px;
+}
+
+
+
+
