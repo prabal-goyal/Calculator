@@ -9,6 +9,7 @@
     background-color: #EBECF0; 
     margin: 10px;
     height: 40px;
+    text-align: center;
 }
 
 .LINKS{
@@ -30,13 +31,13 @@ a {
 .main {
     background-color: #EBECF0;
     height: 1000px;
+    text-align: center;
 }
 
 .Skills {
     background-color: #EBECF0;
     height: 1000px;
 }
-
 
 
 
