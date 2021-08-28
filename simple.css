@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,600&display=swap');
+
+* {
+    font-family: Open Sans;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    text-align: center;
+    color: #0080FA;
+    font-size: 50px;
+    padding-top: 80px;
+}
+
+body {
+    background: url(./images/interest.jpg);
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin: 1rem;
+    padding: 8px;
+}
+
+input {
+    height: 2rem;
+    width: 12rem;
+    border: none;
+    border-bottom: 2px solid black;
+    background: #D3D3D3;
+    
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(160, 64, 64);
+}
+
+p {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 30px;
+}
+
+div {
+    background: cornflowerblue;
+    width: 400px;
+    height: 400px;
+    margin: 60px;
+    border-radius: 30px;
+    margin-left: 770px;
+    box-shadow: 8px 8px 10px #161b20;
+}
+
+button {
+    padding: 5px;
+    margin: 20px;
+    background: none;
+    font-size: 20px;
+    color: #053F42;
+    border-radius: 30px;
+    border-color: black;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 1.5rem;

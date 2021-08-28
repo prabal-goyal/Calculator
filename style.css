@@ -5,39 +5,66 @@
     scroll-behavior: smooth;
 }
 
-.navigation {
-    background-color: #EBECF0; 
-    margin: 10px;
-    height: 40px;
+h1 {
     text-align: center;
+    color: #50D6EB;
+    font-size: 50px;
 }
 
-.LINKS{
-    list-style: none;
-}
-
-.LINKS li {
-    text-decoration: none;
-    display: inline;
-    padding: 10px;
+body {
+    background: url(./images/bg.jpg);
+    width: 100%;
 }
 
 a {
     text-decoration: none;
-    color: #111;
+    color: white;
+    margin: 20px;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 1.5rem;
 
 }
 
-.main {
-    background-color: #EBECF0;
-    height: 1000px;
+.simple {
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: 60px;
+    border-radius: 30px;
+    background: url(./images/si.jpg);
+    box-shadow: 8px 8px 10px #242119;
+
+}
+
+h3 {
     text-align: center;
+    padding: 80px;
+    font-size: 30px;
+    color: teal;
+    
 }
 
-.Skills {
-    background-color: #EBECF0;
-    height: 1000px;
+.compound {
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: 60px;
+    border-radius: 30px;
+    background: url(./images/si.jpg);
+    box-shadow: 8px 8px 10px #242119;
+    
 }
 
+.calculator {
+    display: flex;
+    flex-direction: row;
+    padding-left: 440px;
+    padding-top: 30px;
 
+}
+
+  h3:hover {
+    color: #823F42;
+  }
 
