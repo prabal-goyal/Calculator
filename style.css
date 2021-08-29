@@ -34,6 +34,7 @@ a {
     border-radius: 30px;
     background: url(./images/si.jpg);
     box-shadow: 8px 8px 10px #242119;
+    max-width: 400px;
 
 }
 
@@ -53,14 +54,16 @@ h3 {
     border-radius: 30px;
     background: url(./images/si.jpg);
     box-shadow: 8px 8px 10px #242119;
+    max-width: 400px;
     
 }
 
 .calculator {
     display: flex;
     flex-direction: row;
-    padding-left: 440px;
     padding-top: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -68,3 +71,4 @@ h3 {
     color: #823F42;
   }
 
+@media only screen and (max-width: 500px)

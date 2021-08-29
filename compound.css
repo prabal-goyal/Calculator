@@ -50,8 +50,11 @@ div {
     height: 500px;
     margin: 60px;
     border-radius: 30px;
-    margin-left: 715px;
     box-shadow: 8px 8px 10px #161b20;
+    justify-content: center;
+    margin-left: 715px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 button {
@@ -73,3 +76,4 @@ a {
     font-weight: 400;
     font-size: 1.5rem;
     
+@media only screen and (max-width: 500px)
