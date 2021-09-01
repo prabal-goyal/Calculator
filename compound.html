@@ -13,18 +13,20 @@
     <div>
         <p>Compound Interest Calculator</p>
         <label for="Principle">
-            <input type="number" placeholder="Enter Amount">
+            <input type="number" id="principle" placeholder="Enter Amount">
         </label>
         <label for="Rate">
-            <input type="number" placeholder="Enter Rate">
+            <input type="number" id="rate" placeholder="Enter Rate">
         </label>
         <label for="Time">
-            <input type="number" placeholder="Time in Years">
+            <input type="number" id="time" placeholder="Time in Years">
         </label>
         <label for="amount of Time">
-            <input type="number" placeholder="Amount Of Timess">
+            <input type="number" id="num" placeholder="Amount Of Times">
         </label>
-        <button>CALCULATE</button>
+        <button class="calculate">CALCULATE</button>
+        <p id="output"></p>
     </div>
+    <script src="./compound.js"></script>
 </body>
 </html>
